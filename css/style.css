@@ -14,6 +14,14 @@ body {
   padding-bottom: 80px;
 }
 
+span {
+   font-size: 24px;
+}
+
+p {
+  font-size: 2rem;
+}
+
 #footer {
   position: absolute;
   bottom: 0;
