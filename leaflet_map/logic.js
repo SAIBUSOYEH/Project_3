@@ -1,6 +1,6 @@
 var globalCountries;
 // An array of cities and their locations
-d3.csv("/data/Project3.csv").then(function(countries) {
+d3.csv("data/Project3.csv").then(function(countries) {
   console.log(countries)
   globalCountries=countries;
   // An array which will be used to store created cityMarkers
